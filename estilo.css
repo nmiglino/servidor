@@ -1,0 +1,105 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+body{
+	background-color: #000000;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+
+p{
+	color: #ffffff;
+}
+
+.ejercicio {
+		color: #ffffff;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+
+/*-------------------------*/
+
+
+.filtro-grayscale{
+	filter: grayscale(1);
+}
+
+.filtro-sepia{
+	filter: sepia(1);
+}
+
+
+.multifondo {
+    width: 960px;
+    height: 640px;
+    background-image: url(gemelos.png), url(fondo.jpg);
+    background-repeat: no-repeat;
+
+}
+#columnas{
+	width: 960px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 1px solid #ffffff;
+	border: 5px solid #ED76FF;
+	border-radius: 20px;
+}
+
+#columnas p {
+	font-size: 20px;
+}
+
+#border{
+	border: 10px solid #0066FF;
+	border-radius: 50px;
+}
+
+.transparencia, .sombra, .degradado {
+	width: 960px;
+	height: 300px;
+	background-image: url(flores.png);
+	background-repeat: no-repeat;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 320px;
+	color: rgb(255, 255, 255);
+}
+
+.transparencia{
+	color: rgba(255, 255, 255, 0.5);
+	padding-top: 200px;
+	font-style: italic;
+	font-size: 40px;
+}
+
+.degradado{
+background-image: linear-gradient(rgb(131, 184, 235) 0%, rgb(117, 121, 216) 50%, rgb(121, 9, 187) 100%);
+font-style: italic;
+}
+
+.sombra{
+	color: #F5FF56;
+	text-shadow: 5px 5px 5px #00FFFD;
+	box-shadow:1px 4px 25px #ED7DF0;
+	background-image: url(mariposas.png);
+}
